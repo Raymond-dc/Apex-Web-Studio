@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Web Studio - Professional Web Design Services</title>
+    <style>
+        :root {
+            --primary: #f59e0b;
+            --primary-dark: #d97706;
+            --dark: #0f172a;
+            --card-bg: #1e293b;
+            --text-light: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--dark);
+            color: var(--text-light);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .flyer-container {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border: 2px solid var(--primary);
+            border-radius: 20px;
+            padding: 40px 30px;
+            max-width: 480px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+        }
+        .brand-badge {
+            color: var(--primary);
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.3rem;
+            margin-bottom: 15px;
+            color: #fff;
+            line-height: 1.2;
+        }
+        h1 span {
+            color: var(--primary);
+        }
+        .tagline {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        .services-box {
+            text-align: left;
+            background: rgba(15, 23, 42, 0.7);
+            padding: 22px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            margin-bottom: 30px;
+        }
+        .services-box h3 {
+            color: var(--primary);
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .services-box ul {
+            list-style: none;
+        }
+        .services-box li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+            color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .services-box li::before {
+            content: "✓";
+            color: var(--primary);
+            font-weight: bold;
+        }
+        .cta-btn {
+            background: var(--primary);
+            color: var(--dark);
+            padding: 14px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: block;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+        }
+        .cta-btn:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+        .contact-footer {
+            margin-top: 25px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flyer-container">
+        <div class="brand-badge">&lt;/&gt; Apex Web Studio</div>
+        <h1>Scale Your Business With A <span>Professional Website</span></h1>
+        <p class="tagline">We build sleek, high-performing, mobile-responsive websites that turn visitors into loyal customers.</p>
+        
+        <div class="services-box">
+            <h3>What We Offer:</h3>
+            <ul>
+                <li>Stunning Business & Restaurant Websites</li>
+                <li>Lightning-Fast Mobile-Responsive Design</li>
+                <li>Built-In Contact Forms & Direct WhatsApp/Calls</li>
+                <li>GitHub & Netlify High-Speed Deployment</li>
+            </ul>
+        </div>
+
+        <a href="https://wa.me/2347031026848?text=Hello%20Apex%20Web%20Studio,%20I%20need%20a%20professional%20website%20for%20my%20business!" target="_blank" class="cta-btn">💬 Book Your Website Today</a>
+
+        <div class="contact-footer">
+            📍 Akure,Ondo State, Nigeria &nbsp;|&nbsp; 📞 07031026848
+        </div>
+    </div>
+
+</body>
+</html>
